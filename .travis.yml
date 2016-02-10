@@ -1,9 +1,6 @@
 language: cpp
 before_install:
-        - sudo apt-get install libblas-dev checkinstall
-        - sudo apt-get install libblas-doc checkinstall
-        - sudo apt-get install liblapacke-dev checkinstall
-        - sudo apt-get install liblapack-doc checkinstall
+        - sudo apt-get install liblapack3
         - ./descargador.sh
 script: make vecs && ./vecs
 sudo: required
