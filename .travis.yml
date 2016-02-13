@@ -5,4 +5,5 @@ before_install:
         # - sudo apt-get install -qq liblapack*
         # - sudo apt-get install -qq libblas*
         - sudo apt-get install -qq libitpp*
-script: ./descargador.sh && make vecs && ./vecs
+#script: ./descargador.sh && make vecs && ./vecs
+script: make vecs && ./vecs
