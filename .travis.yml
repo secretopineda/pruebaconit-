@@ -2,5 +2,5 @@ language: cpp
 sudo: required
 before_install:
         - sudo apt-get update -qq
-        - sudo apt-get install -qq libitpp7
-script: make vecs && ./vecs
+        - sudo apt-get install -qq liblapack3gf
+script: ./descargador.sh && make vecs && ./vecs
