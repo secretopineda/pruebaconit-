@@ -2,5 +2,5 @@ language: cpp
 sudo: required
 before_install:
         - sudo apt-get update -qq
-        - sudo apt-get install -qq liblapack3gf
+        - sudo apt-get install -qq liblapack3gf liblapack-dev
 script: ./descargador.sh && make vecs && ./vecs
