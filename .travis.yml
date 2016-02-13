@@ -1,5 +1,5 @@
 language: cpp
 sudo: required
 before_install:
-        - sudo apt-get install -y libitpp7
+        - sudo apt-get install -y libitpp-dev libitpp7-dbg
 script: ./vecs
