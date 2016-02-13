@@ -1,5 +1,5 @@
 language: cpp
 sudo: required
 before_install:
-        - apt-cache search itpp
+        - sudo apt-get install libitpp-dev
 script: ./vecs
